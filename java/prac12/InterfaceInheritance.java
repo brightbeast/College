@@ -41,7 +41,7 @@ class InterfaceInheritance{
         c1.display();
 
         Sphere s1=new Sphere();
-        s1.volume(5);
+        s1.volume(15);
         s1.display();
     }
 }
