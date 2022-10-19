@@ -24,7 +24,7 @@ class Car extends Vehicle{
 
 class Inheritance{
     public static void main(String args[]){
-        Car c1=new Car("Hatchback", "German","BMW");
+        Car c1=new Car("Hatchback", "X5","BMW");
         c1.display();
     }
 }
