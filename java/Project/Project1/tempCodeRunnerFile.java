@@ -1,15 +1,4 @@
-package Project1;
-public class Export{
-    public static void main(String args[]){
-        
-    }
-    public double exporting(String me, String mt, double val){
-        double ans=-1;
-        if(mt.equals(me))
-        ans=val;
-        else{
-            switch(me){
-                case "Afghani":
+case "Afghani":
                 ans=val/0.88;
                 break;
 
@@ -360,13 +349,7 @@ public class Export{
                 case "Indian Rupee":
                 ans=val;
                 break;
-
+                
             default:
             System.out.println("Enter appropriate value");
             break;
-            }
-        }
-        // System.out.println(ans);
-        return ans;
-    }
-}
