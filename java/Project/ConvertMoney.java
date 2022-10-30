@@ -1,8 +1,8 @@
-// Line 89 I am not able to write nextLine I am only able write next
+// Line 89 I am not able to write nextLine I am only able write next 
 import java.util.*;
 import Project1.*;
 
-class Tras{
+class ConvertMoney{
 
     public static double convert(String mt, String me, double val){
         if(val==0)
