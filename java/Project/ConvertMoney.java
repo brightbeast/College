@@ -17,6 +17,42 @@ class ConvertMoney{
         return ans;
     }
     public static void main(String args[]){
+        //Giving info about currency
+        System.out. println("Afghani \t Armenian Dirham \t Azerbaijani Manai \t Bangladeshi Taka \t Cambodian Riel");
+
+		System.out. println("Chinese Yuan \t Georgian Lari \t Hong Kong Dollar \t Indonesian Rupiah \t Japanese Yen");
+
+		System.out. println("Kazakhstani Tenge \t Lao Kip \t Malaysian Ringgit \t South Korean Won \t Sri Lankan Rupee");
+
+		System.out. println("Maldivian Rufiyaa \t Pakistani Rupee \t Philippine Peso \t Thai Baht \t Taiwanese Dollar");
+
+		System.out. println("Vietnamese Dong \t Bahraini Dinar \t Arab Emirates Diram \t Saudi Arabia Riyal \t Omani Rial");
+
+		System.out. println("Israeli Shekel \t Iraqi Dinar \t Iranial Rial \t Jordanian Dinar \t Kuwaiti Dinar");
+
+		System.out. println("Lebanese Pound \t Qatari Riyal \t Libyan Dinar \t Bosnian \t Euro");
+
+		System.out. println("Bulgarian Lev \t Czech Koruna \t Croatian Kuna \t Danish Krone \t Hungarian Forint");
+
+		System.out. println("Icelandic Krona \t Moldovan Leu \t Macedonian Denar \t Norwegian Krone \t Polish Zloty");
+
+		System.out. println("Romanian Leu \t Serbain Denar \t Russian Ruble \t Swedish Krona \t Swiss Franc");	
+	
+	System.out. println("Turkish Lira \t Ukrainian Hryvnia \t British Pound \t United States Dollar \t Canadian Dollar");
+
+		System.out. println("Aruban \t Bajan Dollar \t Bahamian Dollar \t Dominican Peso \t Jamaican Dollar");
+
+		System.out. println("Mexican Peso \t Argentine Peso \t Bolivian \t Brazilian Real \t Chilean Peso");
+
+		System.out. println("Columbian Peso \t Peruvian Sol \t Paraguayan Guarani \t Uruguayan Peso \t Venezuelan Bolivar");
+
+		System.out. println("South African Rand \t Egyptian Pound \t Ghani Cedi \t Gambian Dalasi \t Kenyan Shilling");
+
+		System.out. println("Morrocan Dirham \t Mauritian Ruppee \t Nambian Dollar \t Nigerian Naira \t Seychellios Rupee");	
+
+		System.out. println("Tunisia Dinar \t Ugadan Shilling \t CFA Franc \t Australian Dollar \t New Zealand Dollar");
+		System.out. println("Fijian Dollar \t CPF Franc \t Indian Rupee");
+
         //for value
         Scanner input=new Scanner(System.in);
         //for moneyExpected

@@ -4,6 +4,7 @@ class Prime{
 	public static void main(String args[]){
 		Scanner input=new Scanner(System.in);
 		int a=input.nextInt();
+		//assuming the number
 		boolean flag=true;
 		for(int i=a; i>1; i--)
 		{
@@ -13,7 +14,6 @@ class Prime{
 					flag=false;
 					break;
 				}
-
 			}
 			if(flag==true)
 				System.out.print(i+" ");

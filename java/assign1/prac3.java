@@ -10,7 +10,7 @@ public class prac3 {
             sentence = input.next();
             int size = sentence.length();
 
-            if (sentence.equals("quit")) {
+            if (!sentence.equals("quit")) {
                 for (int i = 0; i < size; i++) {
                     char ch = sentence.charAt(i);
 

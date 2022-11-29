@@ -5,7 +5,7 @@ class Prime{
 		Scanner input=new Scanner(System.in);
 		int a=input.nextInt();
 		boolean flag=true;
-		for(int i=a; i>1; i--)
+		for(int i=2; i<=a; i++)
 		{
 			for(int j=2; j<i; j++)
 			{

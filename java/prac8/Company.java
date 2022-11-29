@@ -13,15 +13,15 @@ class Employee{
     int salary;
     Random empo=new Random();
     Employee(){
-        this.name=input.nextLine();
-        this.age=input.nextInt();
-        this.salary=input.nextInt();
+        name=input.nextLine();
+        age=input.nextInt();
+        salary=input.nextInt();
     }
 
     public void set(){
         // this.empo=Math.Random()
         int empid=empo.nextInt(100000);
-        System.out.println("Name: "+this.name+" Age: "+this.age+" Salary: "+this.salary+" and the employee id is "+empid);
+        System.out.println("Name: "+name+" Age: "+age+" Salary: "+salary+" and the employee id is "+empid);
     }
 
 }

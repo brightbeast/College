@@ -11,9 +11,9 @@ class Employee{
 
 	public void set(){
 		Scanner input=new Scanner(System.in);
-		this.name=input.next();
-		this.age=input.nextInt();
-		this.salary=input.nextInt();
+		name=input.next();
+		age=input.nextInt();
+		salary=input.nextInt();
 	}
 
 	public void display(){
