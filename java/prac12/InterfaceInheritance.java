@@ -19,7 +19,7 @@ class Circle extends Shape implements Shape2D{
     }
 
     public void display(){
-        System.out.println("Area of circle is "+this.ans);
+        System.out.println("Area of circle is "+ans);
     }
 }
 
@@ -30,7 +30,7 @@ class Sphere extends Shape implements Shape3D{
     }
 
     public void display(){
-        System.out.println("Volume of sphere is "+this.ans);
+        System.out.println("Volume of sphere is "+ans);
     }
 }
 

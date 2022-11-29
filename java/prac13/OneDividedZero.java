@@ -10,7 +10,7 @@ public class OneDividedZero {
             c=a/b;
         }
         // // Exception is super calss and exception is object
-        catch(Exception exception){
+        catch(Exception e){
             System.out.println("Please enter appropriate value");
         }
         System.out.println("The value is "+ c);
